@@ -1,0 +1,140 @@
+/*Style général*/
+
+body {
+	font-family:arial, verdana, sans-serif;
+	background-color:black;
+	color:#FFFFFF;
+}
+
+p.footer{
+    text-align:center;
+}
+
+img {
+	border:0px;
+}
+
+p.Erreurs1 {
+	color:red;
+	font-weight:bold;
+	text-align:center;
+}
+
+p.Erreurs2 {
+	color:red;
+	text-align:center;
+}
+
+p.good {
+	color:blue;
+	font-weight:bold;
+	text-align:center;
+}
+
+h1, h2.mil {
+	text-align:center;
+}
+
+.titre {
+	font-weight:bold;
+}
+
+.menu_table{
+	text-align:right;
+}
+
+/*Style Affichage Image*/
+
+table.image {
+	border:0px solid black;
+	margin:auto;
+	border-collapse:collapse;
+}
+
+td.image{
+	width:350px;
+	max-width:500px;
+}
+
+td.image img {
+	text-align:center;
+	vertical-align:middle; 
+}
+
+td.image p {
+	margin:0px;
+	padding:2px 0px 2px 0px;
+}
+
+.size {
+	padding-left:35px;
+}
+
+/*Style formulaire Upload*/
+
+div.upload {
+	width:350px;
+	margin:auto;
+	text-align:right;
+	font-weight:bold;	
+}
+
+/*Style Formulaire Edition*/
+
+td.form_edit p {
+	margin:10px;
+}
+
+td.photo_edit {
+	width:350px;
+	max-width:500px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+table.edit {
+	margin:auto;
+}
+
+/*Style Index*/
+
+table.index {
+	border:2px solid white;
+	margin:auto;
+	border-collapse:collapse;
+}
+
+tr.index {
+	border:2px solid white;
+}
+
+td.index {
+	text-align:center;
+	border:2px solid white;
+	padding:2px 10px 2px 10px;
+}
+
+/*Style Tags*/
+
+table.tags {
+	border:0px;
+	margin:auto;
+	border-collapse:collapse;
+}
+
+tr.tags {
+	border:0px;
+}
+
+td.tags {
+	text-align:center;
+	border:0px;
+	padding:2px 10px 2px 10px;
+}
+
+div.form_tags{
+	width:350px;
+	margin:auto;
+	text-align:right;
+	font-weight:bold;	
+}
